@@ -1,0 +1,26 @@
+{
+  "name": "provaai-landing",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --use-system-ca ./node_modules/vite/bin/vite.js",
+    "build": "vite build --configLoader runner",
+    "preview": "vite preview"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "dependencies": {
+    "framer-motion": "^12.23.12",
+    "lucide-react": "^0.468.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.13",
+    "@vitejs/plugin-react": "^5.0.2",
+    "tailwindcss": "^4.1.13",
+    "vite": "^7.1.7"
+  }
+}

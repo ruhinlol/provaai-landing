@@ -1,0 +1,8 @@
+node_modules
+dist
+.vercel
+.vercel-cache
+.vercel-cli-config
+.env
+.env.*
+!.env.example
